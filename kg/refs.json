@@ -1,0 +1,410 @@
+[
+ {
+  "id": "sparckjones1972statistical",
+  "type": "article-journal",
+  "title": "A statistical interpretation of term specificity and its application in retrieval",
+  "author": [
+   {
+    "family": "Spärck Jones",
+    "given": "Karen"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1972
+    ]
+   ]
+  },
+  "container-title": "Journal of Documentation",
+  "lab": {
+   "work": "lab:work/sparckjones1972statistical",
+   "role": "background",
+   "supports": [
+    "lab:method/tf-idf"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "제작자 지식으로 대조 (2026-11-20, 웹 검색 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "id": "mikolov2013efficient",
+  "type": "article",
+  "title": "Efficient Estimation of Word Representations in Vector Space",
+  "author": [
+   {
+    "family": "Mikolov",
+    "given": "Tomas"
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2013
+    ]
+   ]
+  },
+  "container-title": "arXiv",
+  "lab": {
+   "work": "lab:work/mikolov2013efficient",
+   "role": "background",
+   "supports": [
+    "lab:topic/word-embedding",
+    "lab:claim/analogy-approx"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "제작자 지식으로 대조 (2026-11-20, 웹 검색 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "id": "blei2003latent",
+  "type": "article-journal",
+  "title": "Latent Dirichlet Allocation",
+  "author": [
+   {
+    "family": "Blei",
+    "given": "David M."
+   },
+   {
+    "family": "Ng",
+    "given": "Andrew Y."
+   },
+   {
+    "family": "Jordan",
+    "given": "Michael I."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2003
+    ]
+   ]
+  },
+  "container-title": "Journal of Machine Learning Research",
+  "lab": {
+   "work": "lab:work/blei2003latent",
+   "role": "background",
+   "supports": [
+    "lab:method/lda"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "제작자 지식으로 대조 (2026-11-20, 웹 검색 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "id": "hochreiter1997long",
+  "type": "article-journal",
+  "title": "Long Short-Term Memory",
+  "author": [
+   {
+    "family": "Hochreiter",
+    "given": "Sepp"
+   },
+   {
+    "family": "Schmidhuber",
+    "given": "Jürgen"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1997
+    ]
+   ]
+  },
+  "container-title": "Neural Computation",
+  "lab": {
+   "work": "lab:work/hochreiter1997long",
+   "role": "background",
+   "supports": [
+    "lab:topic/lstm-gru"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "제작자 지식으로 대조 (2026-11-20, 웹 검색 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "id": "bahdanau2015neural",
+  "type": "paper-conference",
+  "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+  "author": [
+   {
+    "family": "Bahdanau",
+    "given": "Dzmitry"
+   },
+   {
+    "family": "Cho",
+    "given": "Kyunghyun"
+   },
+   {
+    "family": "Bengio",
+    "given": "Yoshua"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "container-title": "International Conference on Learning Representations (ICLR)",
+  "lab": {
+   "work": "lab:work/bahdanau2015neural",
+   "role": "background",
+   "supports": [
+    "lab:topic/attention-mechanism"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "제작자 지식으로 대조 (2026-11-20, 웹 검색 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "id": "vaswani2017attention",
+  "type": "paper-conference",
+  "title": "Attention Is All You Need",
+  "author": [
+   {
+    "family": "Vaswani",
+    "given": "Ashish"
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "container-title": "Advances in Neural Information Processing Systems 30",
+  "lab": {
+   "work": "lab:work/vaswani2017attention",
+   "role": "background",
+   "supports": [
+    "lab:topic/transformer",
+    "lab:claim/transformer-2017"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "제작자 지식으로 대조 (2026-11-20, 웹 검색 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "id": "devlin2019bert",
+  "type": "paper-conference",
+  "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+  "author": [
+   {
+    "family": "Devlin",
+    "given": "Jacob"
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "container-title": "Proceedings of NAACL-HLT 2019",
+  "lab": {
+   "work": "lab:work/devlin2019bert",
+   "role": "background",
+   "supports": [
+    "lab:method/bert"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "제작자 지식으로 대조 (2026-11-20, 웹 검색 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "id": "radford2018improving",
+  "type": "report",
+  "title": "Improving Language Understanding by Generative Pre-Training",
+  "author": [
+   {
+    "family": "Radford",
+    "given": "Alec"
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "container-title": "OpenAI",
+  "lab": {
+   "work": "lab:work/radford2018improving",
+   "role": "background",
+   "supports": [
+    "lab:method/gpt"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "제작자 지식으로 대조 (2026-11-20, 웹 검색 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "id": "lewis2020retrieval",
+  "type": "paper-conference",
+  "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+  "author": [
+   {
+    "family": "Lewis",
+    "given": "Patrick"
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "container-title": "Advances in Neural Information Processing Systems 33",
+  "lab": {
+   "work": "lab:work/lewis2020retrieval",
+   "role": "background",
+   "supports": [
+    "lab:topic/rag",
+    "lab:claim/rag-reduces"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "제작자 지식으로 대조 (2026-11-20, 웹 검색 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "id": "pawar2026nlp",
+  "type": "webpage",
+  "title": "20 NLP Algorithms — A Compact Cheatsheet with Ideas, Use Cases and Visualizations",
+  "author": [
+   {
+    "family": "Pawar",
+    "given": "Pooja"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "container-title": "소셜 미디어 게시 인포그래픽",
+  "lab": {
+   "work": "lab:work/pawar2026nlp",
+   "role": "primary",
+   "supports": [
+    "lab:claim/cheatsheet-mixed"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "사용자가 준 인포그래픽 이미지에서 옮김 (게시 주소 미확인)",
+   "checkedSource": "page"
+  }
+ }
+]

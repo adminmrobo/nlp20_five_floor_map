@@ -1,0 +1,30 @@
+{
+ "series": "자연어 분석과 LLM · 연구실 해설",
+ "updated": "2026-11-20",
+ "pages": [
+  {
+   "number": "01",
+   "file": "index.html",
+   "title": "말을 숫자로 바꾸는 20가지 방법 — NLP 치트시트를 5층 지도로 다시 읽기",
+   "cover": {
+    "key": "cover_nlp20",
+    "status": "fallback",
+    "prompt": "COVER_01_nlp20.md",
+    "style": "16-bit pixel art"
+   },
+   "scenes": [],
+   "ontology": {
+    "kgRaw": true,
+    "export": true,
+    "nodes": 83,
+    "edges": 110,
+    "refs": 10
+   },
+   "languages": [
+    "ko"
+   ],
+   "url": "https://adminmrobo.github.io/nlp20_five_floor_map/"
+  }
+ ],
+ "repo": "https://github.com/adminmrobo/nlp20_five_floor_map"
+}

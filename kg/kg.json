@@ -1,0 +1,2576 @@
+{
+ "version": "1.0",
+ "page": "nlp20_five_floor_map",
+ "nodes": [
+  {
+   "id": "lab:topic/word-embedding",
+   "type": "Method",
+   "label": {
+    "ko": "단어 임베딩",
+    "en": "word embedding"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "낱말을 뜻이 비슷하면 가까운 좌표(숫자 묶음)로 바꾸는 방법."
+   },
+   "source": [
+    {
+     "ref": "mikolov2013efficient",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:method/tf-idf",
+   "type": "Method",
+   "label": {
+    "ko": "TF-IDF",
+    "en": "term frequency–inverse document frequency"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv1",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "낱말이 이 문서에 나온 횟수에 드문 정도(log(N÷df))를 곱한 점수."
+   },
+   "source": [
+    {
+     "ref": "sparckjones1972statistical",
+     "loc": ""
+    }
+   ],
+   "altLabel": {
+    "ko": [
+     "낱말 점수"
+    ]
+   }
+  },
+  {
+   "id": "lab:topic/naive-bayes",
+   "type": "Method",
+   "label": {
+    "ko": "나이브 베이즈",
+    "en": "naive Bayes"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "classical",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "낱말이 서로 상관없다고 가정하고 조건부확률을 곱해 분류하는 방법."
+   }
+  },
+  {
+   "id": "lab:topic/logistic-regression",
+   "type": "Method",
+   "label": {
+    "ko": "로지스틱 회귀",
+    "en": "logistic regression"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "classical",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "무게를 더한 점수를 시그모이드로 0~1 확률로 접어 분류하는 방법."
+   }
+  },
+  {
+   "id": "lab:topic/decision-tree",
+   "type": "Method",
+   "label": {
+    "ko": "결정 트리",
+    "en": "decision tree"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "family": "classical",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "질문을 차례로 던져 갈래를 나누는 분류 방법."
+   }
+  },
+  {
+   "id": "lab:topic/random-forest",
+   "type": "Method",
+   "label": {
+    "ko": "랜덤 포레스트",
+    "en": "random forest"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "family": "ensemble",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "여러 결정 트리의 투표로 고르는 방법."
+   }
+  },
+  {
+   "id": "lab:topic/boosting",
+   "type": "Method",
+   "label": {
+    "ko": "부스팅",
+    "en": "gradient boosting"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "family": "ensemble",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "앞 모델이 틀린 것을 다음 모델이 고쳐 나가는 앙상블."
+   },
+   "altLabel": {
+    "ko": [
+     "그래디언트 부스팅"
+    ]
+   }
+  },
+  {
+   "id": "lab:topic/svm",
+   "type": "Method",
+   "label": {
+    "ko": "서포트 벡터 머신",
+    "en": "support vector machine"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "family": "classical",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "두 무리 사이에 가장 넓은 경계를 긋는 분류 방법."
+   },
+   "altLabel": {
+    "ko": [
+     "SVM"
+    ]
+   }
+  },
+  {
+   "id": "lab:topic/knn",
+   "type": "Method",
+   "label": {
+    "ko": "k-최근접 이웃",
+    "en": "k-nearest neighbors"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "family": "classical",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "가장 비슷한 예 k개의 다수결로 고르는 방법."
+   },
+   "altLabel": {
+    "ko": [
+     "KNN"
+    ]
+   }
+  },
+  {
+   "id": "lab:method/lda",
+   "type": "Method",
+   "label": {
+    "ko": "LDA",
+    "en": "latent Dirichlet allocation"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "문서를 주제의 섞음으로, 주제를 낱말의 섞음으로 보는 토픽 모델."
+   },
+   "source": [
+    {
+     "ref": "blei2003latent",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:topic/lstm-gru",
+   "type": "Method",
+   "label": {
+    "ko": "LSTM·GRU",
+    "en": "long short-term memory"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "sequence",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "메모를 오래 지키며 낱말을 한 줄로 읽는 순환 신경망."
+   },
+   "source": [
+    {
+     "ref": "hochreiter1997long",
+     "loc": ""
+    }
+   ],
+   "altLabel": {
+    "ko": [
+     "LSTM"
+    ]
+   }
+  },
+  {
+   "id": "lab:topic/attention-mechanism",
+   "type": "Method",
+   "label": {
+    "ko": "어텐션 메커니즘",
+    "en": "attention mechanism"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "attention",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "낱말마다 다른 낱말을 참고할 비율을 소프트맥스로 정해 뜻을 섞는 방법."
+   },
+   "source": [
+    {
+     "ref": "bahdanau2015neural",
+     "loc": ""
+    }
+   ],
+   "altLabel": {
+    "ko": [
+     "어텐션"
+    ]
+   }
+  },
+  {
+   "id": "lab:topic/transformer",
+   "type": "Method",
+   "label": {
+    "ko": "트랜스포머",
+    "en": "Transformer"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "attention",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "어텐션을 층층이 쌓아 모든 낱말을 한꺼번에 계산하는 구조."
+   },
+   "source": [
+    {
+     "ref": "vaswani2017attention",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:method/bert",
+   "type": "Method",
+   "label": {
+    "ko": "BERT",
+    "en": "BERT"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv5",
+   "level": 4,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "빈자리 맞히기로 사전학습한 인코더 모델."
+   },
+   "source": [
+    {
+     "ref": "devlin2019bert",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:method/gpt",
+   "type": "Method",
+   "label": {
+    "ko": "GPT",
+    "en": "GPT"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv5",
+   "level": 4,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "다음 낱말 맞히기로 사전학습한 디코더 생성 모델."
+   },
+   "source": [
+    {
+     "ref": "radford2018improving",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:topic/rag",
+   "type": "Method",
+   "label": {
+    "ko": "검색 증강 생성",
+    "en": "retrieval-augmented generation"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv5",
+   "level": 4,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "먼저 문서를 찾고, 찾은 근거로 답을 만드는 방법."
+   },
+   "source": [
+    {
+     "ref": "lewis2020retrieval",
+     "loc": ""
+    }
+   ],
+   "altLabel": {
+    "ko": [
+     "RAG"
+    ]
+   }
+  },
+  {
+   "id": "lab:method/bigram-features",
+   "type": "Method",
+   "label": {
+    "ko": "두 낱말 묶음 특징",
+    "en": "bigram features"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#duel",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "붙은 두 낱말을 하나의 특징으로 세는 방법."
+   }
+  },
+  {
+   "id": "lab:concept/bag-of-words",
+   "type": "Concept",
+   "label": {
+    "ko": "낱말 주머니",
+    "en": "bag of words"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "순서를 버리고 낱말 개수만 세는 표현."
+   }
+  },
+  {
+   "id": "lab:concept/softmax",
+   "type": "Concept",
+   "label": {
+    "ko": "소프트맥스",
+    "en": "softmax"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "attention",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "점수를 e로 바꾼 뒤 합이 1이 되게 나눠 비율로 만드는 계산."
+   }
+  },
+  {
+   "id": "lab:concept/sigmoid",
+   "type": "Concept",
+   "label": {
+    "ko": "시그모이드",
+    "en": "sigmoid"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "nn-basics",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "어떤 수든 0과 1 사이로 접는 S자 함수."
+   }
+  },
+  {
+   "id": "lab:concept/conditional-probability",
+   "type": "Concept",
+   "label": {
+    "ko": "조건부확률",
+    "en": "conditional probability"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "math",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "어떤 일이 일어났을 때 다른 일이 일어날 확률."
+   }
+  },
+  {
+   "id": "lab:concept/euclidean-distance",
+   "type": "Concept",
+   "label": {
+    "ko": "피타고라스 거리",
+    "en": "Euclidean distance"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "math",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "두 점의 가로·세로 차이로 빗변 길이를 재는 거리."
+   }
+  },
+  {
+   "id": "lab:concept/temperature",
+   "type": "Concept",
+   "label": {
+    "ko": "온도",
+    "en": "sampling temperature"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "generative",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "점수를 나누어 확률이 몰리거나 퍼지게 하는 값."
+   }
+  },
+  {
+   "id": "lab:concept/pretraining",
+   "type": "Concept",
+   "label": {
+    "ko": "사전학습",
+    "en": "pretraining"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "정답 없는 글로 빈자리·다음 낱말을 맞히며 먼저 배우는 단계."
+   }
+  },
+  {
+   "id": "lab:concept/hallucination",
+   "type": "Concept",
+   "label": {
+    "ko": "환각",
+    "en": "hallucination"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "근거 없이 그럴듯한 내용을 지어내는 현상."
+   }
+  },
+  {
+   "id": "lab:concept/encoder-decoder",
+   "type": "Concept",
+   "label": {
+    "ko": "인코더·디코더",
+    "en": "encoder and decoder"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "attention",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "읽어 이해하는 부분(인코더)과 이어 쓰는 부분(디코더)."
+   }
+  },
+  {
+   "id": "lab:concept/labeled-data",
+   "type": "Concept",
+   "label": {
+    "ko": "라벨",
+    "en": "labeled data"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "ml-basics",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "데이터에 붙인 정답 표시."
+   }
+  },
+  {
+   "id": "lab:concept/nlp-five-floors",
+   "type": "Concept",
+   "label": {
+    "ko": "NLP 5층 지도",
+    "en": "five-floor map of NLP"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#bigpic",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "NLP 방법을 숫자로·고르기·뜻 좌표·문맥·언어 모델 다섯 층과 과업으로 나눈 이 페이지의 정리 틀."
+   }
+  },
+  {
+   "id": "lab:task/text-classification",
+   "type": "Task",
+   "label": {
+    "ko": "텍스트 분류",
+    "en": "text classification"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#bigpic",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "문서에 미리 정한 분류를 붙이는 문제."
+   }
+  },
+  {
+   "id": "lab:task/sentiment-analysis",
+   "type": "Task",
+   "label": {
+    "ko": "감성 분석",
+    "en": "sentiment analysis"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#bigpic",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "글의 좋고 나쁜 감정을 읽는 문제."
+   }
+  },
+  {
+   "id": "lab:task/named-entity-recognition",
+   "type": "Task",
+   "label": {
+    "ko": "개체명 인식",
+    "en": "named entity recognition"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#bigpic",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "글에서 사람·장소·기관 이름을 찾는 문제."
+   }
+  },
+  {
+   "id": "lab:task/topic-modeling",
+   "type": "Task",
+   "label": {
+    "ko": "토픽 모델링",
+    "en": "topic modeling"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#bigpic",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "정답 없이 문서의 숨은 주제를 찾는 문제."
+   }
+  },
+  {
+   "id": "lab:task/summarization",
+   "type": "Task",
+   "label": {
+    "ko": "요약",
+    "en": "text summarization"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#bigpic",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "긴 글을 핵심만 남겨 줄이는 문제."
+   }
+  },
+  {
+   "id": "lab:task/spam-filtering",
+   "type": "Task",
+   "label": {
+    "ko": "스팸 거르기",
+    "en": "spam filtering"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv2",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "메일이 스팸인지 고르는 문제."
+   }
+  },
+  {
+   "id": "lab:limitation/no-decision",
+   "type": "Limitation",
+   "label": {
+    "ko": "점수만 있고 결정을 못 함",
+    "en": "scores without a decision"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:limitation/no-order-no-meaning",
+   "type": "Limitation",
+   "label": {
+    "ko": "순서와 뜻을 모름",
+    "en": "ignores order and meaning"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:limitation/one-vector-per-word",
+   "type": "Limitation",
+   "label": {
+    "ko": "낱말마다 좌표 하나",
+    "en": "one vector per word"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:limitation/needs-much-labeled-data",
+   "type": "Limitation",
+   "label": {
+    "ko": "정답 데이터가 많이 듦",
+    "en": "needs much labeled data"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:limitation/cost-and-hallucination",
+   "type": "Limitation",
+   "label": {
+    "ko": "비용과 환각",
+    "en": "cost and hallucination"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:limitation/rnn-forgetting",
+   "type": "Limitation",
+   "label": {
+    "ko": "긴 문장에서 앞 내용이 흐려짐",
+    "en": "long-range forgetting"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:claim/analogy-approx",
+   "type": "Claim",
+   "label": {
+    "ko": "왕 − 남자 + 여자의 가장 가까운 낱말이 여왕이 되는 유추는 근사이며 늘 성립하지 않는다",
+    "en": "word analogy holds only approximately"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv3",
+   "level": 3,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "mikolov2013efficient",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/transformer-2017",
+   "type": "Claim",
+   "label": {
+    "ko": "트랜스포머는 2017년 어텐션만으로 번역 모델을 만들었다",
+    "en": "Transformer (2017) built translation on attention alone"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "attention",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "vaswani2017attention",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/rag-reduces",
+   "type": "Claim",
+   "label": {
+    "ko": "RAG는 근거 문서를 붙여 환각을 줄이지만 없애지는 못한다",
+    "en": "RAG reduces but does not remove hallucination"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv5",
+   "level": 4,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "lewis2020retrieval",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/cheatsheet-mixed",
+   "type": "Claim",
+   "label": {
+    "ko": "원자료 치트시트는 알고리즘·구조·과업·기법을 한 목록에 섞었다",
+    "en": "the cheatsheet mixes algorithms, architectures, tasks, techniques"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#cards",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "pawar2026nlp",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:question/how-computers-read",
+   "type": "Question",
+   "label": {
+    "ko": "컴퓨터는 숫자밖에 모르는데 어떻게 글을 읽을까?",
+    "en": "how do computers read text?"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#hero",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:question/duel-bigram",
+   "type": "Question",
+   "label": {
+    "ko": "낱말 하나씩 셀까, 두 낱말 묶음까지 셀까?",
+    "en": "unigram vs bigram counting"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#duel",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:analogy/photo-album",
+   "type": "Analogy",
+   "label": {
+    "ko": "사진첩의 특별한 장소",
+    "en": "special landmark in a photo album"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv1",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:analogy/mail-clerk",
+   "type": "Analogy",
+   "label": {
+    "ko": "경험 많은 우편물 담당자",
+    "en": "experienced mail clerk"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv2",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:analogy/supermarket-shelf",
+   "type": "Analogy",
+   "label": {
+    "ko": "마트 진열대 지도",
+    "en": "supermarket shelf map"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv3",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:analogy/highlighter",
+   "type": "Analogy",
+   "label": {
+    "ko": "교과서 형광펜",
+    "en": "textbook highlighter"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv4",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:analogy/librarian",
+   "type": "Analogy",
+   "label": {
+    "ko": "책을 찾아 주는 사서",
+    "en": "librarian fetching books"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv5",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:simulation/tfidf-reviews",
+   "type": "Simulation",
+   "label": {
+    "ko": "리뷰 TF-IDF 실험",
+    "en": "TF-IDF on reviews"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:simulation/nb-spam",
+   "type": "Simulation",
+   "label": {
+    "ko": "스팸 확률 실험",
+    "en": "naive Bayes spam demo"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:simulation/sigmoid",
+   "type": "Simulation",
+   "label": {
+    "ko": "시그모이드 실험",
+    "en": "sigmoid demo"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:simulation/embedding-map",
+   "type": "Simulation",
+   "label": {
+    "ko": "낱말 지도 실험",
+    "en": "embedding map demo"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:simulation/attention-bae",
+   "type": "Simulation",
+   "label": {
+    "ko": "「배」 형광펜 실험",
+    "en": "attention on an ambiguous word"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:simulation/rnn-memory",
+   "type": "Simulation",
+   "label": {
+    "ko": "RNN·LSTM 기억 실험",
+    "en": "RNN vs LSTM memory demo"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:simulation/temperature",
+   "type": "Simulation",
+   "label": {
+    "ko": "온도 실험",
+    "en": "temperature sampling demo"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:simulation/rag-toggle",
+   "type": "Simulation",
+   "label": {
+    "ko": "RAG 켜고 끄기 실험",
+    "en": "RAG on/off demo"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:metric/test-accuracy",
+   "type": "Metric",
+   "label": {
+    "ko": "시험 정확도",
+    "en": "test accuracy"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#duel",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "evaluation",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "시험 리뷰 중 맞힌 비율."
+   }
+  },
+  {
+   "id": "lab:dataset/toy-reviews",
+   "type": "Dataset",
+   "label": {
+    "ko": "장난감 리뷰 20개",
+    "en": "toy review set"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#duel",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "definition": {
+    "ko": "설명용으로 만든 학습 12개·시험 8개 리뷰."
+   }
+  },
+  {
+   "id": "lab:quiz/p-nlp20-lv1-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "퀴즈 lv1-1",
+    "en": "quiz lv1-1"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv1",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p-nlp20-lv1-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "퀴즈 lv1-2",
+    "en": "quiz lv1-2"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv1",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p-nlp20-lv2-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "퀴즈 lv2-1",
+    "en": "quiz lv2-1"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv2",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p-nlp20-lv2-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "퀴즈 lv2-2",
+    "en": "quiz lv2-2"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv2",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p-nlp20-lv3-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "퀴즈 lv3-1",
+    "en": "quiz lv3-1"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv3",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p-nlp20-lv3-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "퀴즈 lv3-2",
+    "en": "quiz lv3-2"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv3",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p-nlp20-lv4-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "퀴즈 lv4-1",
+    "en": "quiz lv4-1"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv4",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p-nlp20-lv4-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "퀴즈 lv4-2",
+    "en": "quiz lv4-2"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv4",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p-nlp20-lv5-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "퀴즈 lv5-1",
+    "en": "quiz lv5-1"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv5",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p-nlp20-lv5-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "퀴즈 lv5-2",
+    "en": "quiz lv5-2"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#lv5",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p-nlp20-cards-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "퀴즈 cards-1",
+    "en": "quiz cards-1"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#cards",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p-nlp20-cards-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "퀴즈 cards-2",
+    "en": "quiz cards-2"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#cards",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/sparckjones1972statistical",
+   "type": "Work",
+   "label": {
+    "ko": "Spärck Jones (1972)",
+    "en": "A statistical interpretation of term specificity and its application in retrieval"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/mikolov2013efficient",
+   "type": "Work",
+   "label": {
+    "ko": "Mikolov 외 (2013)",
+    "en": "Efficient Estimation of Word Representations in Vector Space"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/blei2003latent",
+   "type": "Work",
+   "label": {
+    "ko": "Blei 외 (2003)",
+    "en": "Latent Dirichlet Allocation"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/hochreiter1997long",
+   "type": "Work",
+   "label": {
+    "ko": "Hochreiter 외 (1997)",
+    "en": "Long Short-Term Memory"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/bahdanau2015neural",
+   "type": "Work",
+   "label": {
+    "ko": "Bahdanau 외 (2015)",
+    "en": "Neural Machine Translation by Jointly Learning to Align and Translate"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/vaswani2017attention",
+   "type": "Work",
+   "label": {
+    "ko": "Vaswani 외 (2017)",
+    "en": "Attention Is All You Need"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/devlin2019bert",
+   "type": "Work",
+   "label": {
+    "ko": "Devlin 외 (2019)",
+    "en": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/radford2018improving",
+   "type": "Work",
+   "label": {
+    "ko": "Radford 외 (2018)",
+    "en": "Improving Language Understanding by Generative Pre-Training"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/lewis2020retrieval",
+   "type": "Work",
+   "label": {
+    "ko": "Lewis 외 (2020)",
+    "en": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/pawar2026nlp",
+   "type": "Work",
+   "label": {
+    "ko": "Pawar (2026)",
+    "en": "20 NLP Algorithms — A Compact Cheatsheet with Ideas, Use Cases and Visualizations"
+   },
+   "page": "nlp20_five_floor_map",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "family": "language",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:analogy/photo-album",
+   "p": "lab:analogyOf",
+   "o": "lab:method/tf-idf",
+   "anchor": "#lv1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:analogy/mail-clerk",
+   "p": "lab:analogyOf",
+   "o": "lab:topic/naive-bayes",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:analogy/supermarket-shelf",
+   "p": "lab:analogyOf",
+   "o": "lab:topic/word-embedding",
+   "anchor": "#lv3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:analogy/highlighter",
+   "p": "lab:analogyOf",
+   "o": "lab:topic/attention-mechanism",
+   "anchor": "#lv4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:analogy/librarian",
+   "p": "lab:analogyOf",
+   "o": "lab:topic/rag",
+   "anchor": "#lv5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/tf-idf",
+   "p": "lab:demonstratedBy",
+   "o": "lab:simulation/tfidf-reviews",
+   "anchor": "#lv1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/naive-bayes",
+   "p": "lab:demonstratedBy",
+   "o": "lab:simulation/nb-spam",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/sigmoid",
+   "p": "lab:demonstratedBy",
+   "o": "lab:simulation/sigmoid",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/word-embedding",
+   "p": "lab:demonstratedBy",
+   "o": "lab:simulation/embedding-map",
+   "anchor": "#lv3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/attention-mechanism",
+   "p": "lab:demonstratedBy",
+   "o": "lab:simulation/attention-bae",
+   "anchor": "#lv4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/lstm-gru",
+   "p": "lab:demonstratedBy",
+   "o": "lab:simulation/rnn-memory",
+   "anchor": "#lv4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/temperature",
+   "p": "lab:demonstratedBy",
+   "o": "lab:simulation/temperature",
+   "anchor": "#lv5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/rag",
+   "p": "lab:demonstratedBy",
+   "o": "lab:simulation/rag-toggle",
+   "anchor": "#lv5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p-nlp20-lv1-1",
+   "p": "lab:assesses",
+   "o": "lab:method/tf-idf",
+   "anchor": "#lv1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p-nlp20-lv1-2",
+   "p": "lab:assesses",
+   "o": "lab:method/tf-idf",
+   "anchor": "#lv1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p-nlp20-lv2-1",
+   "p": "lab:assesses",
+   "o": "lab:topic/naive-bayes",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p-nlp20-lv2-2",
+   "p": "lab:assesses",
+   "o": "lab:topic/naive-bayes",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p-nlp20-lv3-1",
+   "p": "lab:assesses",
+   "o": "lab:concept/euclidean-distance",
+   "anchor": "#lv3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p-nlp20-lv3-2",
+   "p": "lab:assesses",
+   "o": "lab:limitation/one-vector-per-word",
+   "anchor": "#lv3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p-nlp20-lv4-1",
+   "p": "lab:assesses",
+   "o": "lab:concept/softmax",
+   "anchor": "#lv4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p-nlp20-lv4-2",
+   "p": "lab:assesses",
+   "o": "lab:concept/encoder-decoder",
+   "anchor": "#lv4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p-nlp20-lv5-1",
+   "p": "lab:assesses",
+   "o": "lab:concept/temperature",
+   "anchor": "#lv5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p-nlp20-lv5-2",
+   "p": "lab:assesses",
+   "o": "lab:topic/rag",
+   "anchor": "#lv5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p-nlp20-cards-1",
+   "p": "lab:assesses",
+   "o": "lab:task/sentiment-analysis",
+   "anchor": "#cards",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p-nlp20-cards-2",
+   "p": "lab:assesses",
+   "o": "lab:topic/random-forest",
+   "anchor": "#cards",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:work/sparckjones1972statistical",
+   "p": "lab:supports",
+   "o": "lab:method/tf-idf",
+   "anchor": "#export",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:work/mikolov2013efficient",
+   "p": "lab:supports",
+   "o": "lab:topic/word-embedding",
+   "anchor": "#export",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/analogy-approx",
+   "p": "lab:assertedIn",
+   "o": "lab:work/mikolov2013efficient",
+   "anchor": "#export",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:work/blei2003latent",
+   "p": "lab:supports",
+   "o": "lab:method/lda",
+   "anchor": "#export",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:work/hochreiter1997long",
+   "p": "lab:supports",
+   "o": "lab:topic/lstm-gru",
+   "anchor": "#export",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:work/bahdanau2015neural",
+   "p": "lab:supports",
+   "o": "lab:topic/attention-mechanism",
+   "anchor": "#export",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:work/vaswani2017attention",
+   "p": "lab:supports",
+   "o": "lab:topic/transformer",
+   "anchor": "#export",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/transformer-2017",
+   "p": "lab:assertedIn",
+   "o": "lab:work/vaswani2017attention",
+   "anchor": "#export",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:work/devlin2019bert",
+   "p": "lab:supports",
+   "o": "lab:method/bert",
+   "anchor": "#export",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:work/radford2018improving",
+   "p": "lab:supports",
+   "o": "lab:method/gpt",
+   "anchor": "#export",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:work/lewis2020retrieval",
+   "p": "lab:supports",
+   "o": "lab:topic/rag",
+   "anchor": "#export",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/rag-reduces",
+   "p": "lab:assertedIn",
+   "o": "lab:work/lewis2020retrieval",
+   "anchor": "#export",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/cheatsheet-mixed",
+   "p": "lab:assertedIn",
+   "o": "lab:work/pawar2026nlp",
+   "anchor": "#export",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/tf-idf",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:topic/naive-bayes",
+   "anchor": "#summary",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/naive-bayes",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:topic/word-embedding",
+   "anchor": "#summary",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/word-embedding",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:topic/attention-mechanism",
+   "anchor": "#summary",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/attention-mechanism",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/bert",
+   "anchor": "#summary",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/tf-idf",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/no-decision",
+   "anchor": "#lv1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/no-decision",
+   "p": "lab:addressedBy",
+   "o": "lab:topic/naive-bayes",
+   "anchor": "#lv1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/naive-bayes",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/no-order-no-meaning",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/no-order-no-meaning",
+   "p": "lab:addressedBy",
+   "o": "lab:topic/word-embedding",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/word-embedding",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/one-vector-per-word",
+   "anchor": "#lv3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/one-vector-per-word",
+   "p": "lab:addressedBy",
+   "o": "lab:topic/attention-mechanism",
+   "anchor": "#lv3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/transformer",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/needs-much-labeled-data",
+   "anchor": "#lv4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/needs-much-labeled-data",
+   "p": "lab:addressedBy",
+   "o": "lab:concept/pretraining",
+   "anchor": "#lv4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/gpt",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/cost-and-hallucination",
+   "anchor": "#lv5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/cost-and-hallucination",
+   "p": "lab:addressedBy",
+   "o": "lab:topic/rag",
+   "anchor": "#lv5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/lstm-gru",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/rnn-forgetting",
+   "anchor": "#lv4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/rnn-forgetting",
+   "p": "lab:addressedBy",
+   "o": "lab:topic/attention-mechanism",
+   "anchor": "#lv4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/hallucination",
+   "p": "lab:addressedBy",
+   "o": "lab:topic/rag",
+   "anchor": "#lv5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/rag",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/cost-and-hallucination",
+   "anchor": "#lv5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/attention-mechanism",
+   "p": "lab:partOf",
+   "o": "lab:topic/transformer",
+   "anchor": "#lv4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/bert",
+   "p": "lab:broader",
+   "o": "lab:topic/transformer",
+   "anchor": "#lv4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/gpt",
+   "p": "lab:broader",
+   "o": "lab:topic/transformer",
+   "anchor": "#lv4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/bert",
+   "p": "lab:broader",
+   "o": "lab:topic/pretrained-lm",
+   "anchor": "#lv5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/gpt",
+   "p": "lab:broader",
+   "o": "lab:topic/pretrained-lm",
+   "anchor": "#lv5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/softmax",
+   "p": "lab:partOf",
+   "o": "lab:topic/attention-mechanism",
+   "anchor": "#lv4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/temperature",
+   "p": "lab:partOf",
+   "o": "lab:method/gpt",
+   "anchor": "#lv5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/sigmoid",
+   "p": "lab:partOf",
+   "o": "lab:topic/logistic-regression",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/conditional-probability",
+   "p": "lab:partOf",
+   "o": "lab:topic/naive-bayes",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/euclidean-distance",
+   "p": "lab:partOf",
+   "o": "lab:topic/word-embedding",
+   "anchor": "#lv3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/encoder-decoder",
+   "p": "lab:partOf",
+   "o": "lab:topic/transformer",
+   "anchor": "#lv4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/pretraining",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/bert",
+   "anchor": "#lv5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/pretraining",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/gpt",
+   "anchor": "#lv5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/bag-of-words",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:topic/naive-bayes",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/bag-of-words",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/no-order-no-meaning",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/labeled-data",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:topic/naive-bayes",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/tf-idf",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:topic/rag",
+   "anchor": "#lv5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/random-forest",
+   "p": "lab:broader",
+   "o": "lab:topic/decision-tree",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/boosting",
+   "p": "lab:broader",
+   "o": "lab:topic/decision-tree",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/logistic-regression",
+   "p": "lab:solves",
+   "o": "lab:task/text-classification",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/decision-tree",
+   "p": "lab:solves",
+   "o": "lab:task/text-classification",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/svm",
+   "p": "lab:solves",
+   "o": "lab:task/text-classification",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/knn",
+   "p": "lab:solves",
+   "o": "lab:task/text-classification",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/naive-bayes",
+   "p": "lab:solves",
+   "o": "lab:task/spam-filtering",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/random-forest",
+   "p": "lab:solves",
+   "o": "lab:task/text-classification",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/boosting",
+   "p": "lab:solves",
+   "o": "lab:task/text-classification",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/lda",
+   "p": "lab:solves",
+   "o": "lab:task/topic-modeling",
+   "anchor": "#lv3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/bert",
+   "p": "lab:solves",
+   "o": "lab:task/named-entity-recognition",
+   "anchor": "#bigpic",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/gpt",
+   "p": "lab:solves",
+   "o": "lab:task/summarization",
+   "anchor": "#bigpic",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/transformer",
+   "p": "lab:solves",
+   "o": "lab:task/sentiment-analysis",
+   "anchor": "#bigpic",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:task/spam-filtering",
+   "p": "lab:broader",
+   "o": "lab:task/text-classification",
+   "anchor": "#lv2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:task/sentiment-analysis",
+   "p": "lab:broader",
+   "o": "lab:task/text-classification",
+   "anchor": "#bigpic",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/nlp-five-floors",
+   "p": "lab:relatedTo",
+   "o": "lab:task/text-classification",
+   "anchor": "#bigpic",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/cheatsheet-mixed",
+   "p": "lab:supports",
+   "o": "lab:concept/nlp-five-floors",
+   "anchor": "#cards",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/analogy-approx",
+   "p": "lab:supports",
+   "o": "lab:topic/word-embedding",
+   "anchor": "#lv3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/transformer-2017",
+   "p": "lab:supports",
+   "o": "lab:topic/transformer",
+   "anchor": "#lv4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/rag-reduces",
+   "p": "lab:supports",
+   "o": "lab:topic/rag",
+   "anchor": "#lv5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/hallucination",
+   "p": "lab:raises",
+   "o": "lab:claim/rag-reduces",
+   "anchor": "#lv5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/nlp-five-floors",
+   "p": "lab:raises",
+   "o": "lab:question/how-computers-read",
+   "anchor": "#hero",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/naive-bayes",
+   "p": "lab:contrastsWith",
+   "o": "lab:method/bigram-features",
+   "anchor": "#duel",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/bigram-features",
+   "p": "lab:evaluatedBy",
+   "o": "lab:metric/test-accuracy",
+   "anchor": "#duel",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/bigram-features",
+   "p": "lab:evaluatedOn",
+   "o": "lab:dataset/toy-reviews",
+   "anchor": "#duel",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/no-order-no-meaning",
+   "p": "lab:raises",
+   "o": "lab:question/duel-bigram",
+   "anchor": "#duel",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/bigram-features",
+   "p": "lab:relatedTo",
+   "o": "lab:concept/bag-of-words",
+   "anchor": "#duel",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/tf-idf",
+   "p": "lab:broader",
+   "o": "lab:topic/feature-engineering",
+   "anchor": "#bigpic",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/naive-bayes",
+   "p": "lab:broader",
+   "o": "lab:topic/supervised-learning",
+   "anchor": "#bigpic",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/logistic-regression",
+   "p": "lab:broader",
+   "o": "lab:topic/supervised-learning",
+   "anchor": "#bigpic",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/lda",
+   "p": "lab:broader",
+   "o": "lab:topic/unsupervised-learning",
+   "anchor": "#bigpic",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/word-embedding",
+   "p": "lab:broader",
+   "o": "lab:topic/embedding-space",
+   "anchor": "#bigpic",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/lstm-gru",
+   "p": "lab:broader",
+   "o": "lab:topic/rnn",
+   "anchor": "#bigpic",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:topic/rag",
+   "p": "lab:broader",
+   "o": "lab:area/language",
+   "anchor": "#bigpic",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/pretraining",
+   "p": "lab:broader",
+   "o": "lab:topic/self-supervised",
+   "anchor": "#bigpic",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/gpt",
+   "p": "lab:broader",
+   "o": "lab:topic/autoregressive-generation",
+   "anchor": "#bigpic",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/softmax",
+   "p": "lab:broader",
+   "o": "lab:topic/attention-mechanism",
+   "anchor": "#bigpic",
+   "confidence": "high"
+  }
+ ]
+}

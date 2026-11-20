@@ -1,0 +1,39 @@
+{
+ "title": "말을 숫자로 바꾸는 20가지 방법 — NLP 치트시트를 5층 지도로 다시 읽기",
+ "number": "01",
+ "series": "자연어 분석과 LLM · 연구실 해설",
+ "about": [
+  "lab:concept/nlp-five-floors",
+  "lab:method/tf-idf",
+  "lab:topic/word-embedding",
+  "lab:topic/attention-mechanism",
+  "lab:topic/rag"
+ ],
+ "basedOn": [
+  "pawar2026nlp"
+ ],
+ "educationalLevel": "입문",
+ "creator": [
+  {
+   "name": "안상선",
+   "role": "author"
+  }
+ ],
+ "contributor": [
+  {
+   "name": "AI 보조 제작",
+   "role": "assistant"
+  }
+ ],
+ "date": "2026-11-20",
+ "version": "1.0",
+ "language": [
+  "ko"
+ ],
+ "license": "",
+ "url": "https://adminmrobo.github.io/nlp20_five_floor_map/",
+ "registry": "KG_00_registry 0.2",
+ "learningResourceType": "interactive explainer",
+ "seeAlso": "https://github.com/adminmrobo/nlp20_five_floor_map",
+ "suggestedCitation": "안상선 (2026). 말을 숫자로 바꾸는 20가지 방법 — NLP 치트시트를 5층 지도로 다시 읽기. 자연어 분석과 LLM · 연구실 해설 01, v1.0."
+}
