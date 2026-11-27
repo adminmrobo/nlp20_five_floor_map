@@ -1,6 +1,6 @@
 {
  "series": "자연어 분석과 LLM · 연구실 해설",
- "updated": "2026-11-20",
+ "updated": "2026-11-27",
  "pages": [
   {
    "number": "01",
@@ -8,7 +8,7 @@
    "title": "말을 숫자로 바꾸는 20가지 방법 — NLP 치트시트를 5층 지도로 다시 읽기",
    "cover": {
     "key": "cover_nlp20",
-    "status": "fallback",
+    "status": "ok",
     "prompt": "COVER_01_nlp20.md",
     "style": "16-bit pixel art"
    },
@@ -26,5 +26,67 @@
    "url": "https://adminmrobo.github.io/nlp20_five_floor_map/"
   }
  ],
- "repo": "https://github.com/adminmrobo/nlp20_five_floor_map"
+ "repo": "https://github.com/adminmrobo/nlp20_five_floor_map",
+ "series_ko": "자연어 분석과 LLM · 연구실 해설",
+ "title_ko": "말을 숫자로 바꾸는 20가지 방법 — NLP 치트시트를 5층 지도로 다시 읽기",
+ "site_url": "https://adminmrobo.github.io/nlp20_five_floor_map/",
+ "items": [
+  {
+   "id": "cover_nlp20",
+   "role": "cover",
+   "path": "cover_nlp20.webp",
+   "size": [
+    1600,
+    900
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": "genspark/요청1_표지_cover_nlp20.txt",
+   "source_of": null,
+   "status": "ok"
+  },
+  {
+   "id": "thumb_nlp20",
+   "role": "thumb",
+   "path": "thumb_nlp20.webp",
+   "size": [
+    640,
+    360
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": null,
+   "source_of": "cover_nlp20",
+   "status": "ok"
+  },
+  {
+   "id": "og_nlp20",
+   "role": "og",
+   "path": "og_nlp20.jpg",
+   "size": [
+    1200,
+    630
+   ],
+   "characters": [
+    "doc",
+    "asst",
+    "fly",
+    "jupanbot"
+   ],
+   "robot": "jupanbot-v2",
+   "prompt_en": null,
+   "source_of": "cover_nlp20",
+   "status": "ok"
+  }
+ ]
 }
